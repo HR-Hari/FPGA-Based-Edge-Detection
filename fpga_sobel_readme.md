@@ -11,7 +11,7 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project implements a hardware accelerator for real-time image edge detection using the **Sobel operator**. The design is written in synthesizable Verilog and targets the Basys3 FPGA development board.
 
@@ -27,7 +27,7 @@ This avoids square-root computation while maintaining high edge detection accura
 
 ---
 
-## 🧠 Architecture Summary
+## Architecture Summary
 
 - 3×3 convolution engine  
 - Horizontal and vertical gradient computation  
@@ -38,26 +38,7 @@ This avoids square-root computation while maintaining high edge detection accura
 
 ---
 
-## 📂 Repository Structure
-
-```
-├── src/
-│   └── sobel_core.v
-├── tb/
-│   └── tb_sobel.v
-├── scripts/
-│   ├── img_to_hex.py
-│   └── hex_to_img.py
-├── docs/
-│   └── waveform_reports/
-├── img/
-│   └── hardware_output.jpg
-└── README.md
-```
-
----
-
-## 🚀 How to Run the Simulation
+## How to Run the Simulation
 
 ### Step 1: Generate Test Data
 
@@ -114,7 +95,7 @@ Compare the result with the OpenCV Sobel output to confirm correctness.
 
 ---
 
-## 📊 Results
+## Results
 
 | Stage | Description |
 |-------|-------------|
@@ -126,7 +107,7 @@ The hardware output matches the software reference with 100% functional accuracy
 
 ---
 
-## ⚙️ Optimization Strategy
+## Optimization Strategy
 
 - Replaced square-root operation with magnitude approximation  
 - Avoided multipliers where possible  
@@ -137,7 +118,7 @@ This makes the design scalable for real-time embedded vision systems.
 
 ---
 
-## 🛠 Future Work
+## Future Work
 
 - VGA Output Integration for real-time display  
 - OV7670 Camera Module interface  
@@ -147,7 +128,7 @@ This makes the design scalable for real-time embedded vision systems.
 
 ---
 
-## 📌 Applications
+## Applications
 
 - Real-time embedded vision systems  
 - Edge AI preprocessing  
@@ -157,10 +138,4 @@ This makes the design scalable for real-time embedded vision systems.
 
 ---
 
-## 👤 Author
-
-Hari R.  
-Final Year Electrical & Electronic Engineering Undergraduate  
-University of Peradeniya  
-[GitHub](https://github.com/HR-Hari)  |  [LinkedIn](https://www.linkedin.com/in/hariharasudan-ravichandran/)
 
