@@ -6,7 +6,7 @@
 **Language:** Verilog HDL  
 **Verification:** Python (OpenCV, NumPy)
 
-![Hardware Output](img/hardware_output.jpg)  
+![Hardware Output](img/Output.jpg)  
 *Figure 1: Edge-detected output from Verilog behavioral simulation.*
 
 ---
